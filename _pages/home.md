@@ -7,7 +7,7 @@ permalink: /
 
 ### About me
 
-Vaibhav Bhosale is a fifth-year Ph.D. student at Georgia Tech advised by Prof. Ada Gavrilovska and Dr. Ketan Bhardwaj. His research is focused on building systems and networking solutions for LEO satellite networks. He has explored different aspects related to LEO satellite networks such as control plane management, edge application deployment, route variability, and cellular deployment.
+Vaibhav Bhosale is a Ph.D. student at Georgia Tech advised by Prof. Ada Gavrilovska and Dr. Ketan Bhardwaj. His research is focused on building systems and networking solutions for LEO satellite networks. He has explored different aspects related to LEO satellite networks such as control plane management, edge application deployment, route variability, cellular deployment, storage, and their use as a national emergency failover, as well as orchestration for space-based solar power.
 
 {% for member in site.data.pi %}
 <div class="jumbotron">
