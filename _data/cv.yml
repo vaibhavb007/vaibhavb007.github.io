@@ -1,0 +1,192 @@
+cv:
+  name: Vaibhav Bhosale
+  label: CS PhD Student, Georgia Institute of Technology
+  email: vbhosale6@gatech.edu
+  location: Atlanta, GA
+  image: ""
+  summary: PhD student at Georgia Tech building systems and networking solutions for LEO satellite networks.
+
+  social_networks:
+    - network: GitHub
+      username: vaibhavb007
+    - network: LinkedIn
+      username: vaibhavpbhosale15
+
+  sections:
+    Education:
+      - institution: Georgia Institute of Technology
+        location: Atlanta, GA, United States
+        area: Computer Science
+        studyType: PhD
+        start_date: 2021
+        highlights:
+          - Advised by Dr. Ada Gavrilovska and Dr. Ketan Bhardwaj.
+
+      - institution: Georgia Institute of Technology
+        location: Atlanta, GA, United States
+        area: Computer Science
+        studyType: MS
+        start_date: 2019
+        end_date: 2021
+
+      - institution: Indian Institute of Technology Bombay
+        location: Mumbai, India
+        area: Computer Science & Engineering
+        studyType: BTech with Honors
+        start_date: 2013
+        end_date: 2017
+
+    Experience:
+      - company: Microsoft Research
+        position: Research Intern
+        location: Redmond, WA
+        start_date: 2024-05
+        end_date: 2024-08
+        summary: Future of Scalable Software Engineering (FOSSE).
+        highlights:
+          - Mentors: Dr. Peter Bodik, Iker Llorens.
+
+      - company: MediaTek
+        position: 5G Research Intern
+        start_date: 2022-05
+        end_date: 2022-12
+        summary: Advanced Communication Technology.
+        highlights:
+          - Mentor: Dr. Abhishek Roy.
+
+      - company: Microsoft
+        position: Research Intern
+        start_date: 2021-05
+        end_date: 2021-08
+        summary: Azure for Operators (AfO).
+        highlights:
+          - Mentor: Dr. Sanjeev Mehrotra.
+
+      - company: IBM
+        position: Senior Backend Developer Intern
+        start_date: 2020-06
+        end_date: 2020-08
+        summary: Cloud and Cognitive Services.
+
+      - company: Microsoft India Development Center
+        position: Software Engineer
+        location: Bengaluru, India
+        start_date: 2017-07
+        end_date: 2019-08
+        summary: Outlook Rest API.
+
+      - company: Microsoft India Development Center
+        position: Software Development Intern
+        location: Bengaluru, India
+        start_date: 2016-05
+        end_date: 2016-07
+
+    Awards:
+      - title: CRNCH PhD Fellowship
+        date: 2026
+        awarder: Center for Research into Novel Computing Hierarchies, Georgia Tech
+
+      - title: Runner-up, Annual College of Computing Poster Symposium
+        date: 2025
+        awarder: Georgia Tech
+
+      - title: Best Paper Award
+        date: 2024
+        awarder: ACM Symposium on Cloud Computing (SoCC)
+        summary: 'For "Krios: Scheduling Abstractions and Mechanisms for Enabling a LEO Compute Cloud".'
+
+      - title: Best Paper Award
+        date: 2023
+        awarder: IEEE Conference on Wireless for Space and Extreme Environments (WiSEE)
+        summary: 'For "PaddleSats: Attitude Control and Station-Keeping for Ultra-Low Density SSP Satellites".'
+
+      - title: Finalist, Qualcomm Innovation Fellowship
+        date: 2023
+        awarder: Qualcomm
+        summary: Selected among 45 finalists out of approximately 200 submissions.
+
+      - title: Finalist, Microsoft One Week Hackathon
+        date: 2018
+        awarder: Microsoft
+        summary: Top 5 at the Bengaluru Science Fair for a speech-based drawing assistant.
+
+      - title: Runners-up, Mimamsa
+        date: 2016
+        awarder: IISER Pune
+        summary: The largest collegiate science quiz in India.
+
+      - title: Winner, Bazinga Mathematics
+        date: 2016
+        awarder: IIT Bombay
+        summary: The largest mathematics quiz at IIT Bombay, with 80 teams participating.
+
+      - title: All India Rank 161, JEE-Advanced
+        date: 2013
+        summary: Out of 1.5 million students.
+
+      - title: Top 1%, National Standard Examinations in Physics and Astronomy
+        date: 2013
+
+      - title: National Talent Search Exam Scholarship
+        date: 2009
+        awarder: Government of India
+        summary: Selection ratio of approximately 0.1%.
+
+    Teaching:
+      - title: Head Teaching Assistant, Artificial Intelligence
+        date: Fall 2020, Spring 2021
+        summary: Led a team of 21 Graduate Teaching Assistants, overseeing the planning and execution of course structure, assignments, and examinations.
+
+      - title: Graduate Teaching Assistant, Distributed Computing
+        date: Fall 2023, Fall 2021
+
+      - title: Graduate Teaching Assistant, Artificial Intelligence
+        date: Fall 2019, Spring 2020
+
+      - title: Undergraduate Teaching Assistant
+        date: 2016 - 2017
+        summary: Artificial Intelligence (Spring 2017), Computer Architecture (Autumn 2016), Computer Programming & Utilization (Summer 2017).
+
+    Service:
+      - title: Journal Reviews
+        summary: IEEE TNSM (2, 2026), IEEE TMC (2026), IEEE TPDS (2024), IEEE/ACM ToN (2023), IEEE JSAC (2022).
+
+      - title: Conference Reviews
+        summary: IEEE ICC 2026, IEEE ICC 2024.
+
+      - title: Workshop Reviews
+        summary: ACM LEO-NET 2026.
+
+      - title: Artifact Evaluation Committee
+        summary: SOSP 2025, EuroSys 2025, SOSP 2024, OSDI 2023, ATC 2023.
+
+      - title: Shadow PC
+        summary: EuroSys 2024.
+
+      - title: Student Volunteer Co-Chair
+        date: 2026
+        summary: ACM AI Leadership Summit 2026.
+
+    Leadership:
+      - title: President, School of Computer Science Graduate Student Association
+        date: 2023 - 2024
+        summary: Led an executive team of 8 graduate students overseeing academic, welfare, administration, and social activities for the graduate student body, managing a budget exceeding $50,000.
+
+      - title: Finance Chair, School of Computer Science Graduate Student Association
+        date: 2022 - 2023
+
+      - title: Undergraduate Events Nominee, Students' Technical Activities Body
+        date: 2016 - 2017
+        summary: Led a 3-tier team of 20 managers and 100+ volunteers to handle 200+ events with an INR 1.5M budget for 7000+ students.
+
+      - title: Manager, Maths & Physics Club
+        date: 2015 - 2016
+
+    Patents:
+      - title: Techniques for Overriding Libraries for Workloads in a Cloud-Computing Environment
+        date: 2023
+        summary: US Patent 11838354.
+
+      - title: Spatial and Frequency Domain Beam Management Using Time Series Information
+        date: 2024
+        summary: US Patent 18369488.

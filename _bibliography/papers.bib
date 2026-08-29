@@ -1,0 +1,188 @@
+---
+---
+
+@inproceedings{saadat2027telemetry,
+  abbr        = {SciTech},
+  title       = {An Adaptive Telemetry Probe for Resource-Constrained Spacecraft Using F Prime},
+  author      = {Saadat, Atilla and Bhosale, Vaibhav and Bhardwaj, Ketan and Gavrilovska, Ada},
+  booktitle   = {AIAA SciTech Forum 2027},
+  year        = {2027},
+  bibtex_show = {true}
+}
+
+@inproceedings{bhosale2026storagewall,
+  abbr        = {HotStorage},
+  title       = {The Storage Wall in LEO Compute Clouds},
+  author      = {Bhosale, Vaibhav and Gavrilovska, Ada and Bhardwaj, Ketan},
+  booktitle   = {Proceedings of the 18th ACM Workshop on Hot Topics in Storage and File Systems (HotStorage 2026)},
+  year        = {2026},
+  pdf         = {hotstorage26.pdf},
+  selected    = {true},
+  bibtex_show = {true},
+  abstract    = {Low Earth orbit (LEO) satellites increasingly carry commodity compute and storage, forming a LEO compute cloud. A satellite is overhead for only a few minutes, so an application that must keep serving a region hands off to a new satellite hundreds of times a day. For a stateful application this handover is a storage event, because the application state has to be written to the next satellite's drive before it can resume there. We argue that flash endurance is a binding constraint on stateful LEO compute. Our model projects that full-state checkpointing at orbital handover cadence exhausts a commodity drive's write endurance in months to a few years. That is shorter than the five-year deployment lifetime of modern constellations, which cannot be serviced once in orbit. A more durable drive raises the endurance budget in proportion to its rating, but at a significantly higher cost. The result is a three-way tension we call LDW, for latency, state durability, and SSD wear. We observe that a stateful design can hold only two of the three, and present a research agenda for designs that exercise the trade-offs across all three axes.}
+}
+
+@inproceedings{calderon2026trainable,
+  abbr        = {SmallSat},
+  title       = {Toward Trainable AI Agents for Satellite Operations},
+  author      = {Calderon, Haley and Bhosale, Vaibhav and Bhardwaj, Ketan and Gavrilovska, Ada},
+  booktitle   = {Small Satellite Conference (SmallSat 2026)},
+  year        = {2026},
+  pdf         = {ai_operator.pdf},
+  bibtex_show = {true},
+  abstract    = {Low Earth orbit is increasingly crowded, and a growing share of it is flown by universities and small operators. These teams must detect and respond to on-orbit anomalies with far less staff, expertise, and tooling than large operators, and a single missed anomaly can end a mission. We present COMET, a ground-based operator agent that helps a small team both detect anomalies and diagnose them. COMET pairs a learned detector with a retrieval-augmented diagnosis stage. An LSTM autoencoder flags anomalous telemetry windows, and a language model explains each one against the mission's own documentation, procedures, and prior operational records. Because the detector is trained on a mission's own telemetry and the diagnosis is grounded in its own documents, an organization can build an agent tailored to its spacecraft, before launch and during operations. The agent is advisory rather than autonomous, and every output is traceable back to the telemetry and documents that produced it. We describe the design and a proof-of-concept implementation, and evaluate COMET on a public benchmark of simulated multivariate spacecraft telemetry with injected anomalies. The detector recovers most of the labeled anomalies, favoring recall so that few are missed, and for a flagged event the diagnosis stage produces a traceable, documentation-grounded explanation. These results show the pipeline is feasible and its outputs auditable, a step toward reducing operator burden as deployments grow.}
+}
+
+@inproceedings{bhosale2026lighting,
+  abbr        = {SmallSat},
+  title       = {Lighting Up the Moon: A Scheduling Framework for Cislunar Space Based Solar Power Orchestration},
+  author      = {Bhosale, Vaibhav and Woo, Andrew and Gavrilovska, Ada and Valenta, Christopher R. and Bhardwaj, Ketan},
+  booktitle   = {Small Satellite Conference (SmallSat 2026)},
+  year        = {2026},
+  pdf         = {cislunar-smallsat26.pdf},
+  bibtex_show = {true},
+  abstract    = {This paper presents a scheduling framework for cislunar space-based solar power (SBSP) constellations that serve multiple lunar surface clients. Sustained lunar surface operations require continuous electrical power across the fourteen-day lunar night, and bridging that gap with surface batteries imposes substantial mass and cost penalties. SBSP from cislunar orbit offers an alternative: satellites collect solar energy in orbit and beam it to surface assets through directed power transmission. As SBSP shifts from per-mission deployment to shared constellations serving multiple missions concurrently, the operational layer above the hardware becomes the central research challenge. A shared constellation must serve geographically distributed clients with differing priorities and time-varying demands while respecting orbital constraints on visibility and energy storage, and it must do so with guarantees that operators plan around: fairness, prioritization, and utilization. At the core of our framework is a linear programming formulation that allocates energy from satellites to clients over a discretized time horizon. The LP is constellation-aware and contact-aware, using predicted ephemeris, eclipse, and demand data to plan transmissions proactively. It runs inside a simulation environment built on NASA's General Mission Analysis Tool. We evaluate the framework on a four-satellite low lunar orbit constellation in frozen orbits at inclinations of 0, 27, 90, and 127 degrees, serving six clients at the historical Surveyor landing sites across both a 24-hour scheduling window and a full 28-day lunar cycle. We compare the LP scheduler against a balanced greedy baseline. Both policies deliver the same total constellation throughput of 88.80 MWh and the same allocation to the worst-served client. The constellation-level throughput and the floor on energy delivery are therefore policy-invariant under these supply-rich conditions, and the scheduler choice determines only how the middle of the client distribution is allocated. These observations suggest that as cislunar SBSP infrastructure matures, the dominant lever for fairness and coverage is constellation design rather than scheduler refinement.}
+}
+
+@inproceedings{kravtsov2026keeping,
+  abbr        = {LEO-NET},
+  title       = {Keeping Up with the Trends: Identifying Shifts in LEO Satellite Usage Patterns},
+  author      = {Kravtsov, Stepan and Abdelrazek, Sherif and Bhosale, Vaibhav and Saeed, Ahmed},
+  booktitle   = {Proceedings of the 4th ACM Workshop on LEO Networking and Communication (LEO-NET 2026)},
+  year        = {2026},
+  pdf         = {leonet26.pdf},
+  bibtex_show = {true},
+  abstract    = {Low Earth Orbit (LEO) satellite networks, such as Starlink, are increasingly used for Internet access, emergency response, and backup connectivity. However, tracking when and where Starlink usage changes remains difficult because direct sources of evidence, such as operator telemetry and subscriber records, are not publicly available. We present a cross-dataset tool for detecting high-confidence shifts in Starlink usage from public measurements. The tool combines three complementary vantage points: APNIC estimates of visible users, M-Lab speed-test activity, and Cloudflare Radar traffic trends. It first identifies changes in user trends independently in each time series, then reports candidate events when multiple vantage points observe same-direction changes within a narrow temporal window. We evaluate the approach through country-level case studies of Jamaica, Ukraine, and Germany. In Jamaica, the tool identifies a sharp increase in Starlink usage around the Hurricane Melissa response. In Ukraine, it detects usage shifts consistent with reported changes in Starlink deployment and availability. In Germany, it avoids treating a prominent APNIC-only rise-and-fall pattern as a supported event. These results show that cross-source public measurements can provide the community with a practical and high-confidence way to track event-driven shifts in how LEO networks are used and relied upon over time.}
+}
+
+@inproceedings{bhosale2025assessing,
+  abbr        = {IMC},
+  title       = {Assessing LEO Satellite Networks for National Emergency Failover},
+  author      = {Bhosale, Vaibhav and Zhang, Ying and Kapoor, Sameer and Kim, Robin and Schlicht, Miguel and Gupta, Muskaan and Tumanova, Ekaterina and Bischof, Zachary S. and Bustamante, Fabi{\'a}n E. and Dainotti, Alberto and Saeed, Ahmed},
+  booktitle   = {Proceedings of the 2025 ACM Internet Measurement Conference (IMC 2025)},
+  year        = {2025},
+  doi         = {10.1145/3730567.3764482},
+  pdf         = {imc25.pdf},
+  selected    = {true},
+  bibtex_show = {true},
+  abstract    = {In this paper, we study the viability of LEO networks as a failover network. We contextualize our analysis by framing the capacity of satellite networks relative to lost capacity due to submarine cable failure. Specifically, we focus on scenarios where LEO networks act as failovers for submarine cables, providing a concrete target capacity to be fulfilled by the satellite network. We introduce a new model and simulator that help us estimate the failover capacity. We identify key factors determining the actual capacity available on the satellite network: the total area of the country, the terminal distribution policy used by the government, the spectrum allocation and traffic engineering policies used by the LEO network operator. Based on our findings, we make policy recommendations to governments that can result in an increase of up to 1.8x in the failover capacity without requiring additional infrastructure. However, we find after implementing all our recommendations, with 200k terminals deployed and no competing traffic in the network, a satellite network can only satisfy 0.9-14.7% of the capacity lost due to submarine cable failure in four out of six case studies.}
+}
+
+@article{bhardwaj2025ushering,
+  abbr        = {Computer},
+  title       = {Ushering in the Low Earth Orbit Compute Cloud Era},
+  author      = {Bhardwaj, Ketan and Bhosale, Vaibhav and Gavrilovska, Ada},
+  journal     = {Computer},
+  volume      = {58},
+  number      = {10},
+  pages       = {78--86},
+  year        = {2025},
+  publisher   = {IEEE},
+  pdf         = {computer25.pdf},
+  selected    = {true},
+  bibtex_show = {true},
+  abstract    = {The last few years have seen low Earth orbit satellites becoming an integral part of global connectivity, including high-speed broadband, cellular, and Internet of Things. This article outlines a vision in which this new infrastructure tier is used like today's clouds to flexibly deploy diverse services in space.}
+}
+
+@inproceedings{bhosale2025failover,
+  abbr        = {TPRC},
+  title       = {Are LEO Networks the Future of National Emergency Failover? -- A Quantitative Study and Policy Blueprint},
+  author      = {Bhosale, Vaibhav and Zhang, Ying and Kapoor, Sameer and Kim, Robin and Schlicht, Miguel and Gupta, Muskaan and Tumanova, Ekaterina and Bischof, Zachary S. and Bustamante, Fabi{\'a}n E. and Dainotti, Alberto and Saeed, Ahmed},
+  booktitle   = {The Research Conference on Communications, Information and Internet Policy (TPRC53)},
+  year        = {2025},
+  pdf         = {tprc25.pdf},
+  bibtex_show = {true},
+  abstract    = {Low Earth Orbit (LEO) satellite networks are emerging as backups for national-scale outages. While they have demonstrated value in small-scale disasters such as supporting first responders during hurricanes, their effectiveness during large-scale infrastructure failures remains underexplored. This paper evaluates the capacity of LEO networks to act as national failover infrastructure using six real-world submarine cable failures. The failure capacity provided by a LEO network to a specific nation depends on a few key factors: the size of the country, the distribution of the user terminals, and the policies of the network operator for spectrum allocation and traffic engineering. We find that coordinated policies between governments and network operators, especially regarding terminal placement and spectrum use, can improve failover capacity by up to 1.8x without requiring additional infrastructure. However, even under optimistic conditions with 200,000 terminals and a dedicated failover network, LEO networks can only restore 0.9-14.7% of lost submarine cable capacity in most cases.}
+}
+
+@inproceedings{bhosale2024krios,
+  abbr        = {SoCC},
+  title       = {Krios: Scheduling Abstractions and Mechanisms for Enabling a LEO Compute Cloud},
+  author      = {Bhosale, Vaibhav and Gavrilovska, Ada and Bhardwaj, Ketan},
+  booktitle   = {Proceedings of the 2024 ACM Symposium on Cloud Computing (SoCC 2024)},
+  pages       = {322--340},
+  year        = {2024},
+  pdf         = {krios.pdf},
+  selected    = {true},
+  bibtex_show = {true},
+  award       = {Awarded **Best Paper** at ACM SoCC 2024},
+  award_name  = {Best Paper},
+  abstract    = {Low Earth Orbit (LEO) satellites are an important facet of global connectivity providing high speed Internet, cellular, IoT connectivity and so on. Combined with the rich resource availability on each satellite, LEO satellites represent a new, emerging cloud frontier - the LEO Compute Cloud. However, satellite mobility introduces non-trivial challenges when orchestrating applications for a LEO compute cloud, making it harder to deploy applications without increasing the latency and bandwidth costs. In this paper, we identify the concrete challenges in using state-of-the-art terrestrial orchestrators for a LEO compute cloud. We present Krios - a LEO compute cloud orchestration system that hides the complexities introduced by satellite mobility and enables a practical LEO compute cloud. The design of Krios is centered around a novel LEO zones abstraction that allows application providers to specify where their applications should be available. Krios provides crucial system support to enable the LEO zones abstraction, ensuring uninterrupted availability of applications in LEO zones via proactive and predictive application handovers. Our experimental evaluation of Krios with representative applications demonstrates a practical and efficient LEO compute cloud, without requiring any disruptive changes in applications and with modest system overheads. With Krios, LEO orchestration requires just ~1 application instance at a time to maintain the same availability as what prior work achieves by deploying application instances on all satellites or by performing 6-10 times more frequent expensive handovers.}
+}
+
+@inproceedings{bhosale2024efficient,
+  abbr        = {ISNCC},
+  title       = {Efficient Cross-Frequency Beam Prediction in 6G Wireless Using Time Series Data},
+  author      = {Bhosale, Vaibhav and Saxena, Navrati and Bhardwaj, Ketan and Gavrilovska, Ada and Roy, Abhishek},
+  booktitle   = {2024 International Symposium on Networks, Computers and Communications (ISNCC)},
+  pages       = {1--6},
+  year        = {2024},
+  organization = {IEEE},
+  pdf         = {isncc24.pdf},
+  bibtex_show = {true},
+  abstract    = {Next generation 6G wireless envisions a much higher data rate and a lower latency compared to 5G wireless networks. Directional antennas with narrow beams across high mmWave frequencies hold the key to achieving such high data rates. However, Beam Management (BM), which is the process of finding appropriate transmit and receive beams, offers significant challenges. Dynamic channel variation, user mobility, and narrow beams in high frequency mmWave channels further complicate these challenges. Efficient Machine Learning (ML) strategies can be used to alleviate this overhead. In spite of their underlying differences, sub-6 GHz and high frequency mmWave channels share some similarities in array geometry, number of paths, and surrounding environment. As sub-6 GHz channel characteristics are relatively easier to acquire and learn, we introduce a new machine learning framework, using transformer and LSTM to learn sub-6 GHz channel information over time for efficient beam prediction across high frequency mmWave channels. System Level simulation results point out that when using time-series data-based learning of beam patterns with transformers or LSTMs in sub-6 GHz channels, our proposed scheme achieves up to 99.5% top-5 beam prediction accuracy while reducing the BM overhead by over 50% compared to existing work.}
+}
+
+@inproceedings{bhosale2023characterization,
+  abbr        = {PAM},
+  title       = {A Characterization of Route Variability in LEO Satellite Networks},
+  author      = {Bhosale, Vaibhav and Saeed, Ahmed and Bhardwaj, Ketan and Gavrilovska, Ada},
+  booktitle   = {International Conference on Passive and Active Network Measurement (PAM 2023)},
+  pages       = {313--342},
+  year        = {2023},
+  organization = {Springer},
+  pdf         = {pam23.pdf},
+  selected    = {true},
+  bibtex_show = {true},
+  additional_info = {. Invited presentation at IETF/IRTF Measurement and Analysis for Protocols Research Group (MAPRG)},
+  abstract    = {LEO satellite networks possess highly dynamic topologies, with satellites moving at 27,000 km/hour to maintain their orbit. As satellites move, the characteristics of the satellite network routes change, triggering rerouting events. Frequent rerouting can cause poor performance for path-adaptive algorithms (e.g., congestion control). In this paper, we provide a thorough characterization of route variability in LEO satellite networks, focusing on route churn and RTT variability. We show that high route churn is common, with most paths used for less than half of their lifetime. With some paths used for just a few seconds. This churn is also unnecessary with rerouting leading to marginal gains in most cases (e.g., less than a 15% reduction in RTT). Moreover, we show that the high route churn is harmful to network utilization and congestion control performance. By examining RTT variability, we find that the smallest achievable RTT between two ground stations can increase by 2.5x as satellites move in their orbits. We show that the magnitude of RTT variability depends on the location of the communicating ground stations, exhibiting a spatial structure. Finally, we show that adding more satellites, and providing more routes between stations, does not necessarily reduce route variability. Rather, constellation configuration (i.e., the number of orbits and their inclination) plays a more significant role. We hope that the findings of this study will help with designing more robust routing algorithms for LEO satellite networks.}
+}
+
+@inproceedings{bhosale2023paddlesats,
+  abbr        = {WiSEE},
+  title       = {PaddleSats: Attitude Control and Station-Keeping for Ultra-Low Density SSP Satellites},
+  author      = {Bhosale, Vaibhav and Dolan, Jonathan and Kalepu, Grishma and Manjunath, Deeksha and Durgin, Gregory},
+  booktitle   = {2023 IEEE International Conference on Wireless for Space and Extreme Environments (WiSEE)},
+  pages       = {41--46},
+  year        = {2023},
+  organization = {IEEE},
+  pdf         = {paddlesats.pdf},
+  bibtex_show = {true},
+  award       = {Awarded **Best Paper** at IEEE WiSEE 2023},
+  award_name  = {Best Paper},
+  abstract    = {'PaddleSats' represent a unique class of Space Solar Power (SSP) satellites distinguished by their ultra-low area density and distinctive design, featuring two circular disks—a solar collection disk and a microwave transmission disk—connected by a cylindrical joint. This paper introduces a comprehensive framework and presents initial results for an advanced Paddle-Sat attitude control algorithm. The primary objective of this algorithm is to emulate the behavior of traditional geostationary satellites, particularly their station-keeping procedures while adhering to the specific requirements for efficient microwave SSP transmission. Our results show that the PaddleSat attitude control algorithm successfully achieves the desired station-keeping behavior, effectively balancing the demands of stable positioning with the unique requirements of microwave SSP transmission. These findings highlight the potential of PaddleSats as a viable and efficient means of harnessing solar power in space.}
+}
+
+@inproceedings{bhosale2023dont,
+  abbr        = {HotInfra},
+  title       = {Don't Let Your LEO Edge Fade at Night},
+  author      = {Bhosale, Vaibhav and Bhardwaj, Ketan and Gavrilovska, Ada},
+  booktitle   = {1st Workshop on Hot Topics in System Infrastructure (HotInfra 2023)},
+  year        = {2023},
+  pdf         = {hotinfra.pdf},
+  bibtex_show = {true},
+  abstract    = {The Low Earth Orbit (LEO) satellite edge has emerged as a promising solution to alleviate data congestion on the ground-satellite links (GSLs). However, existing approaches either offer inflexible fixed-function deployments or focus solely on addressing infrastructure mobility. In this paper, we shed light on the unique challenges posed by the varying energy harvested by satellites, which necessitates a fresh perspective on orchestration within satellites. Our work serves as a compelling call to integrate energy as a first-class metric for orchestrating applications within the LEO satellite infrastructure, posed as the new frontier of computing infrastructure.}
+}
+
+@inproceedings{bhosale2023astrolabe,
+  abbr        = {LEO-NET},
+  title       = {Astrolabe: Modeling RTT Variability in LEO Networks},
+  author      = {Bhosale, Vaibhav and Bhardwaj, Ketan and Saeed, Ahmed},
+  booktitle   = {Proceedings of the 1st ACM Workshop on LEO Networking and Communication (LEO-NET 2023)},
+  pages       = {7--12},
+  year        = {2023},
+  pdf         = {astrolabe.pdf},
+  bibtex_show = {true},
+  abstract    = {Networking practitioners heavily rely on intuitive models of the behavior of networks when designing and analyzing protocols and algorithms. However, there is still a lack of such intuitive models of the behavior of LEO satellite networks, hindering innovation. In this paper, we provide a first step towards improving the intuitive understanding of the behavior of LEO satellite networks. In particular, we focus on developing a model that captures the RTT variability exhibited by such networks. We rely on simple and intuitive calculations instead of expensive simulations. To capture the high RTT variability exhibited by satellite networks, we estimate lower and upper bounds for the RTT between a pair of ground stations. We introduce Astrolabe, a novel approach that achieves accurate bounds, with a median lower bound within 1.15X the actual lowest RTT and a median upper bound within 2X the highest RTT in a few seconds instead of hours required by simulations or measurements.}
+}
+
+@inproceedings{bhosale2020toward,
+  abbr        = {HotEdge},
+  title       = {Toward Loosely Coupled Orchestration for the LEO Satellite Edge},
+  author      = {Bhosale, Vaibhav and Bhardwaj, Ketan and Gavrilovska, Ada},
+  booktitle   = {3rd USENIX Workshop on Hot Topics in Edge Computing (HotEdge 2020)},
+  year        = {2020},
+  pdf         = {hotedge20.pdf},
+  bibtex_show = {true},
+  abstract    = {Low Earth Orbit (LEO) satellites are envisioned to be capable of providing Internet services for billions of users who currently lack reliable Internet connectivity. This calls for a new LEO edge capable of providing edge computing benefits from space. This paper proposes an orchestration approach for the LEO edge that incorporates path models, temporal compensation and affinity chains as the primary scheduling constructs, and presents preliminary results that illustrate opportunities for achieving improved service availability and improved performance for a stateful (caching) edge function.}
+}
