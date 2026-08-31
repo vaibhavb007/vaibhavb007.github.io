@@ -133,60 +133,65 @@ cv:
         summary: Selection ratio of approximately 0.1%.
 
     Teaching:
-      - title: Head Teaching Assistant, Artificial Intelligence
-        date: Fall 2020, Spring 2021
-        summary: Led a team of 21 Graduate Teaching Assistants, overseeing the planning and execution of course structure, assignments, and examinations.
+      - name: Head Teaching Assistant, Artificial Intelligence
+        summary: Fall 2020, Spring 2021. Led a team of 21 Graduate Teaching Assistants, overseeing the planning and execution of course structure, assignments, and examinations.
 
-      - title: Graduate Teaching Assistant, Distributed Computing
-        date: Fall 2023, Fall 2021
+      - name: Graduate Teaching Assistant, Distributed Computing
+        summary: Fall 2023, Fall 2021.
 
-      - title: Graduate Teaching Assistant, Artificial Intelligence
-        date: Fall 2019, Spring 2020
+      - name: Graduate Teaching Assistant, Artificial Intelligence
+        summary: Fall 2019, Spring 2020.
 
-      - title: Undergraduate Teaching Assistant
-        date: 2016 - 2017
+      - name: Undergraduate Teaching Assistant
         summary: Artificial Intelligence (Spring 2017), Computer Architecture (Autumn 2016), Computer Programming & Utilization (Summer 2017).
 
     Service:
-      - title: Journal Reviews
+      - name: Journal Reviews
         summary: IEEE TNSM (2, 2026), IEEE TMC (2026), IEEE TPDS (2024), IEEE/ACM ToN (2023), IEEE JSAC (2022).
 
-      - title: Conference Reviews
+      - name: Conference Reviews
         summary: IEEE ICC 2026, IEEE ICC 2024.
 
-      - title: Workshop Reviews
+      - name: Workshop Reviews
         summary: ACM LEO-NET 2026.
 
-      - title: Artifact Evaluation Committee
+      - name: Artifact Evaluation Committee
         summary: SOSP 2025, EuroSys 2025, SOSP 2024, OSDI 2023, ATC 2023.
 
-      - title: Shadow PC
+      - name: Shadow PC
         summary: EuroSys 2024.
 
-      - title: Student Volunteer Co-Chair
-        date: 2026
+      - name: Student Volunteer Co-Chair
         summary: ACM AI Leadership Summit 2026.
 
     Leadership:
-      - title: President, School of Computer Science Graduate Student Association
-        date: 2023 - 2024
+      - company: School of Computer Science Graduate Student Association
+        position: President
+        start_date: 2023
+        end_date: 2024
         summary: Led an executive team of 8 graduate students overseeing academic, welfare, administration, and social activities for the graduate student body, managing a budget exceeding $50,000.
 
-      - title: Finance Chair, School of Computer Science Graduate Student Association
-        date: 2022 - 2023
+      - company: School of Computer Science Graduate Student Association
+        position: Finance Chair
+        start_date: 2022
+        end_date: 2023
 
-      - title: Undergraduate Events Nominee, Students' Technical Activities Body
-        date: 2016 - 2017
+      - company: Students' Technical Activities Body, IIT Bombay
+        position: Undergraduate Events Nominee
+        start_date: 2016
+        end_date: 2017
         summary: Led a 3-tier team of 20 managers and 100+ volunteers to handle 200+ events with an INR 1.5M budget for 7000+ students.
 
-      - title: Manager, Maths & Physics Club
-        date: 2015 - 2016
+      - company: Maths & Physics Club, IIT Bombay
+        position: Manager
+        start_date: 2015
+        end_date: 2016
 
     Patents:
       - title: Techniques for Overriding Libraries for Workloads in a Cloud-Computing Environment
-        date: 2023
-        summary: US Patent 11838354.
+        publisher: US Patent 11838354
+        releaseDate: 2023
 
       - title: Spatial and Frequency Domain Beam Management Using Time Series Information
-        date: 2024
-        summary: US Patent 18369488.
+        publisher: US Patent 18369488
+        releaseDate: 2024
